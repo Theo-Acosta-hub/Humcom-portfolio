@@ -1,0 +1,49 @@
+
+body 
+    {
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+        padding-top: 70px; /* Offset for fixed navbar */
+    }
+section 
+    {
+        padding: 60px 0;
+    }
+
+h2 
+    {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+.navbar 
+    {
+        transition: all 0.3s ease-in-out;
+    }
+
+footer 
+    {
+        background-color: #212529;
+        color: white;
+    }
+img 
+    {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+.card 
+    {
+        margin-bottom: 30px;
+        transition: transform 0.3s;
+    }
+
+.card:hover 
+    {
+    transform: translateY(-5px);
+    }
+
+
+
